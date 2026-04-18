@@ -1,0 +1,22 @@
+{
+    "name": "contensio/plugin-social-share",
+    "description": "Social share buttons plugin for Contensio — X, Facebook, LinkedIn, copy link. No database required.",
+    "type": "contensio-plugin",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "contensio/core": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Contensio\\Plugins\\SocialShare\\": "src/"
+        }
+    },
+    "extra": {
+        "contensio": {
+            "providers": [
+                "Contensio\\Plugins\\SocialShare\\SocialShareServiceProvider"
+            ]
+        }
+    }
+}

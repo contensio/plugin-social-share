@@ -1,0 +1,10 @@
+{
+    "name": "Social Share",
+    "slug": "social-share",
+    "version": "1.0.0",
+    "description": "Adds share buttons (X, Facebook, LinkedIn, copy link) to every post. No backend or database required.",
+    "author": "Contensio",
+    "author_url": "https://contensio.com",
+    "requires_contensio": "2.0.0",
+    "provider": "Contensio\\Plugins\\SocialShare\\SocialShareServiceProvider"
+}
