@@ -1,6 +1,6 @@
 {
     "name": "contensio/plugin-social-share",
-    "description": "Social share buttons plugin for Contensio — X, Facebook, LinkedIn, copy link. No database required.",
+    "description": "Social share buttons plugin for Contensio - X, Facebook, LinkedIn, copy link. No database required.",
     "type": "contensio-plugin",
     "license": "MIT",
     "require": {

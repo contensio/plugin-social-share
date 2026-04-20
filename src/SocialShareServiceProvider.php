@@ -9,15 +9,17 @@ use Illuminate\Support\ServiceProvider;
 
 class SocialShareServiceProvider extends ServiceProvider
 {
+    protected string $ns = 'contensio-social-share';
+
     public function boot(): void
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'social-share');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', $this->ns);
 
         Hook::add('contensio/frontend/post-after-content', function (Content $content, ContentTranslation $translation): string {
             $url   = urlencode(request()->url());
             $title = urlencode($translation->title ?? '');
 
-            return view('social-share::partials.buttons', compact('url', 'title'))->render();
+            return view($this->ns . '::partials.buttons', compact('url', 'title'))->render();
         });
     }
 }

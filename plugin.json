@@ -4,7 +4,7 @@
     "description": "Adds share buttons (X, Facebook, LinkedIn, copy link) to every post. No backend or database required.",
     "author": "Contensio",
     "author_url": "https://contensio.com",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "provider": "Contensio\\Plugins\\SocialShare\\SocialShareServiceProvider",
     "autoload": {
         "psr-4": {

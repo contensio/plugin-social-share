@@ -1,6 +1,6 @@
 # Social Share
 
-Adds share buttons to every post in Contensio. Four buttons out of the box — no configuration, no database, no admin UI needed.
+Adds share buttons to every post in Contensio. Four buttons out of the box - no configuration, no database, no admin UI needed.
 
 **Supported networks:**
 - X (Twitter)
@@ -50,7 +50,7 @@ The hook receives the `Content` and `ContentTranslation` model instances so the 
 
 ## Styling
 
-The buttons render inside a `<div class="mt-10 pt-8 border-t border-gray-200">` wrapper. Each button is a plain `<a>` or `<button>` with Tailwind utility classes — they adopt your theme's font and spacing automatically.
+The buttons render inside a `<div class="mt-10 pt-8 border-t border-gray-200">` wrapper. Each button is a plain `<a>` or `<button>` with Tailwind utility classes - they adopt your theme's font and spacing automatically.
 
 To override the button appearance, publish the view or target the elements in your theme's CSS:
 
